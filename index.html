@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div id="main-panel">
+    <h1><strong>Registration Form</strong></h1>
+    <form action="backend.php">
+        <div>
+            <label>Name</label> 
+            <input type="text" placeholder="type your name">
+        </div><br>
+        <div>
+            <label>Date of Birth</label>
+             <input type="date">
+            </div><br>
+        <div>
+            <label>Branch</label>
+             <input type="text" placeholder="Enter your Branch">
+        </div><br>
+        <div>
+            <label>Year</label>
+             <input type="number" placeholder="Enter your Year">
+            </div><br>
+        <div>
+            <label>Specialization</label>
+             <input type="text" placeholder="Your Specialization">
+            </div><br>
+        <div>
+            <label>Gender</label>
+            <div>
+                <input type="radio" name="g" />
+                Male
+                <input type="radio" name="g"/>
+                Female
+                <input type="radio" name="g"/>
+                Other
+            </div>
+        </div>
+        <br>
+        <div>
+            <label>Course Offering</label>
+            <div>
+                <input type="checkbox"/>
+                Typescript
+                <input type="checkbox"/>
+                Python
+                <input type="checkbox"/>
+                My SQL
+                <br>
+                <input type="checkbox"/>
+                Project Management
+            </div>
+        </div>
+        <br>
+        <div class="button">
+            <button type="submit"> Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+</html>
